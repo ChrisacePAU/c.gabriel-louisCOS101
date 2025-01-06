@@ -9,7 +9,7 @@ fn main() {
 	 let amount3 = 750000.0;
 	 let qty3 = 3;
 
-	 let amount4 = 2850000.0
+	 let amount4 = 2850000.0;
 	 let qty4 = 3;
 
 	 let amount5 = 250000.0;
