@@ -1,20 +1,14 @@
 fn main() {
-    let num1 = 10;
-    let num2 = 2;
-    let mut result: i32;
+    // Initialize a mutable tuple
+    let mut mountain_heights = ("Everest", 8848, "Fishtail", 6993);
 
-    result = num1 + num2;
-    println!("Sum: {}", result);
+    // Print the original tuple
+    println!("Original tuple: {:?}", mountain_heights);
 
-    result = num1 - num2;
-    println!("Difference: {}", result);
+    // Change 3rd and 4th elements of a mutable tuple
+    mountain_heights.2 = "Lhotse";  // Changing the name of the third element
+    mountain_heights.3 = 8516;      // Changing the height of the fourth element
 
-    result = num1 * num2;
-    println!("Product: {}", result);
-
-    result = num1 / num2;
-    println!("Quotient: {}", result);
-
-    result = num1 % num2;
-    println!("Remainder: {}", result);
+    // Print the changed tuple
+    println!("Changed tuple: {:?}", mountain_heights);
 }
